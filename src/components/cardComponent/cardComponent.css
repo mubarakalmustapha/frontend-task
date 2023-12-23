@@ -1,0 +1,27 @@
+.custom-card {
+  border-radius: 15px;
+  border: 1px solid #d9dce2;
+  overflow: hidden;
+}
+
+.card-body img {
+  border-radius: 15px;
+}
+
+.center-image {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  height: 170px;
+  position: relative;
+}
+
+.vertical {
+  border-left: 6px solid #6741ff;
+}
+
+@media (max-width: 576px) {
+  .plus-icon {
+    right: -1rem;
+  }
+}
